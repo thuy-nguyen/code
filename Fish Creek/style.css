@@ -24,7 +24,29 @@ dl{
 	font-weight:bold;
 }
 #nav{
-	display:inline;
-	margin: 10px;
 	background-color:purple;
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:0 auto;
+    margin-top:50px;
+    width:80%;
+    height:100%;
+
+}
+.centernav{
+	width:200px;
+	border:1px solid red;
+	margin-left:auto;
+	margin-right:auto;
+}
+.positionfooter{
+	position:absolute;
+	left:100px;
+	top:500px;
+}
+.listright{
+	float:right;
+	width:200px;
 }
